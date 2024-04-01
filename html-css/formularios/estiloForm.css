@@ -1,0 +1,18 @@
+*{
+	font-family: Century Gothic;
+	background: #042940;
+	color: #D6D58E;
+}
+
+input[type="password"], [type="text"], [type="email"]{
+	background: #DBF227;
+}
+
+select, option{
+	background: #DBF227;
+	color: #042940;
+}
+
+input[type="submit"], [type="reset"]{
+	background: #005C53;
+}

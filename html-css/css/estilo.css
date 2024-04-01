@@ -1,0 +1,23 @@
+/*  SELECTORES */
+
+
+/* 
+selector {
+    propiedad: valor;
+} 
+*/
+
+/* Tipos de selectores:
+    Universal: *
+    De tipo: seleccionamos por la etiqueta html (h1, p ...)
+    clases: .nombredelaclase
+    ID: #Nombre_del_ID, es único para cada elemento
+    Atributo: [attr="valor"]
+    Descendiente: una etiqueta dentro de otra etiqueta: h2 p{}  (los p que están en los h2)
+    Pseudo-clases: elemento:evento (a:hover{})  (.clase a:hover)
+
+*/ 
+
+
+/* ESPECIFICIDAD */
+

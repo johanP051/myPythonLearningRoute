@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estiloForm.css">
+</head>
+<body>
+    
+    <!-- form action="archivo para conectar con el servidor" -->
+    
+    <form name"datos" action="">
+        
+        <fieldset>
+            <legend>Datos</legend>
+
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" placeholder="*Ingrese su nombre" required> <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="*Ingrese su email" required> <br>
+            
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password:" placeholder="*Ingrese su contraseña" required> <br>
+
+            <label for="birth">Fecha de nacimiento</label>
+            <input type="date" id="birth" name="birth" required> <br><br>
+
+            <label for="color">Seleccione su color favorito:</label> <br>
+            <input type="radio" id="color" name="color"  value="Negro" required> Negro
+            <input type="radio" id="color" name="color"  value="Blanco" required> Blanco
+            <input type="radio" id="color" name="color"  value="Verde" required> Verde <br><br>
+            
+        
+            <select name="genero" id="genero" required>
+                <option hidden selected>Seleccione su género</option>
+                <option value="M">Masculino</option>
+                <option value="F">Femenino</option>
+                <option value="N">Prefiero no decirlo</option>
+
+            </select>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Otros</legend>
+            
+            <!-- 1ra forma de hacer un chackbox -->
+            <label for="list">Marque sus hobbies</label>
+            <br>
+            <input type="checkbox" id="list" name="list" value="natacion" required> Natación
+            <br>
+            <input type="checkbox" id="list" name="list" value="programar" required> Programar
+
+
+            <!-- 2da forma de hacer un checkbox -->
+            <br>
+            <input type="checkbox" id="artes" name="1hobby" value="artes">
+            <label for="artes">Artes</label>
+            <br>
+            <input type="checkbox" id="leer" name="2hobby" value="leer">
+            <label for="leer">Leer</label>
+
+        </fieldset>
+
+        <br>
+        <input type="submit">
+        <input type="reset">
+
+    </form>
+</body>
+</html>
